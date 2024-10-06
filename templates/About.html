@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>About</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+        <link rel="stylesheet" href="/static/style.css">
+        <link rel="stylesheet" href="/static/animate.css">
+        <!-- Favicons -->
+  <link href="static/img/favicon.png" rel="icon">
+  <link href="static/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="static/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="static/lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="static/css/style.css" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" type="text/css" />
+        <!-- Google fonts-->
+
+
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="static/index.css">
+    
+        
+    </head>
+         
+	<body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <div class="container">
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a style="font-size: x-large;" class="nav-link page-scroll" href="/home.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-size: x-large;" class="nav-link page-scroll" href="About.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="font-size: x-large;" class="nav-link page-scroll" href="/login">Signout</a>
+                        </li>
+                    </ul>
+                    <span class="nav-item social-icons">
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x"></i>
+                            </a>
+                        </span>
+                        <span class="fa-stack">
+                            <a href="#your-link">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x"></i>
+                            </a>
+                        </span>
+                    </span>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        
+        <header class = "header1">
+                <div class = "box1">
+                    <img src="{{url_for('static', filename='images/logo_trial.png')}}" height = "115vh" width = "90%" alt="Banner Image"/>
+                </div>
+                <div class = "box2">
+                    <h1><span class="highlight"> Big data analytics & mining for effective visualisation and trends forecasting of crime data</h1>
+                </div>
+                
+            </header>
+        
+        <section id="section8">
+                <div class="container">
+                    <center><h1>ABOUT</h1></center>
+                    <p>
+                            In India, there has been a drastic pattern of crime observed in the past few years giving rise to a threat to the security of common man. Considering this perilous situation, main aim was to study these crime patterns and realise the changes in the overall crime ratio based on the demographic/population ratios which shall ease the process of reaching the future crime-cases prediction. Along with this, predictions are made on the maximum criminal activities that need to be controlled and the amount of security measures that need to be taken to decelerate/curb the occurrence of any mild to treacherous level criminal activities.
+                            This website depicts the overall scenerio of crime pattern analysis done with the help of the most trending feild of computer science namely Machine Learning. It includes the pictorial study of crime patterns using ML algorithm, for visualizations and predictions based on the data acquired from the Indian Government.
+                    </p>
+                   
+            
+                </div>
+        </section>
+        <br>
+        <section id="section8">
+            <div class="container">
+                <center><h1>TRENDS FORECASTING</h1></center>
+                <p>
+                        In India, there has been a drastic pattern of crime observed in the past few years giving rise to a threat to the security of common man. Considering this perilous situation, main aim was to study these crime patterns and realise the changes in the overall crime ratio based on the demographic/population ratios which shall ease the process of reaching the future crime-cases prediction. Along with this, predictions are made on the maximum criminal activities that need to be controlled and the amount of security measures that need to be taken to decelerate/curb the occurrence of any mild to treacherous level criminal activities.
+                        This website depicts the overall scenerio of crime pattern analysis done with the help of the most trending feild of computer science namely Machine Learning. It includes the pictorial study of crime patterns using ML algorithm, for visualizations and predictions based on the data acquired from the Indian Government.
+                </p>
+               
+        
+            </div>
+    </section>   
+        
+        <script>
+            // When the user scrolls the page, execute myFunction
+             window.onscroll = function() {myFunction()};
+ 
+             // Get the header
+             var header = document.getElementById("myHeader");
+ 
+             // Get the offset position of the navbar
+             var sticky = header.offsetTop;
+ 
+             // Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+             function myFunction() {
+             if (window.pageYOffset > sticky) {
+                 header.classList.add("sticky");
+             } else {
+                 header.classList.remove("sticky");
+             }
+             }
+         </script>
+             
+         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+         <div id="copyrights">
+             <div class="container">
+               <p>
+                 &copy; Copyrights <strong>2022</strong>. All Rights Reserved
+               </p>
+               
+             </div>
+           </div>
+           <!-- / copyrights -->
+         
+           <!-- JavaScript Libraries -->
+           <script src="static/lib/jquery/jquery.min.js"></script>
+           <script src="static/lib/bootstrap/js/bootstrap.min.js"></script>
+           <script src="static/lib/php-mail-form/validate.js"></script>
+         
+           <!-- Template Main Javascript File -->
+           <script src="static/js/main.js"></script>
+         
+         </body>
+         </html>
+         
